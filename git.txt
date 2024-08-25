@@ -1,0 +1,26 @@
+git --version
+git config --global user.name "AlbertStats19"
+git config --global user.email ycaperam@unal.edu.co
+
+git config --global credential.username "AlbertStats19"
+git config --global credential.useremail "ycaperam@unal.edu.co"
+
+#Escribir la dirección del repositorio creado
+git clone https://github.com/AlbertStats19/Regresion.git
+
+#Guardar los archivos en la carpeta nueva que se creó
+
+#Ingresar a la carpeta que se creó
+cd Regresion
+
+#Verificar el estado de los archivos
+git status
+
+#Subir los archivos a la nube
+git add .
+
+git commit -m "primera carga"
+
+git push
+
+# Recargar el repositorio de internet y ver los archivos
